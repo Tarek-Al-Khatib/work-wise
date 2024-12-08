@@ -9,9 +9,9 @@
 >
 > The proejct aims to streamline career advancement by offering tailored learning plans, realistic interview experiences, and fostering a supportive community for networking, mentorship, and skill development. We believe in enhancing career journeys by making learning and professional growth more accessible, engaging, and effective.
 
-### User Stories
+## User Stories
 
-## User
+### User
 
 - As a user, I want to create a personalized learning plan, so I can work towards my career goals step by step.
 - As a user, I want to track my progress in the learning plan, so I can see how close I am to achieving my goals.
@@ -21,12 +21,12 @@
 - As a user, I want to send and receive messages within my community channels, so I can communicate effectively with other members.
 - As a user, I want to view detailed feedback after an interview, so I can identify my strengths and areas for improvement.
 
-## Moderator
+### Moderator
 
 - As a moderator, I want to send interview invitations to users, so I can help them prepare for job opportunities.
 - As a moderator, I want to review reported messages, so I can take appropriate actions against content that violates community guidelines.
 
-## Admin
+### Admin
 
 - As an admin, I want to assign moderator roles to community members, so I can ensure the community is actively managed and moderated.
 
