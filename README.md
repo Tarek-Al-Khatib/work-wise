@@ -7,7 +7,7 @@
 
 > Workwise is an AI-driven platform designed to empower users in their career growth and development, providing personalized learning paths, mock interview simulations, and community collaboration to help them achieve their professional goals.
 >
-> The proejct aims to streamline career advancement by offering tailored learning plans, realistic interview experiences, and fostering a supportive community for networking, mentorship, and skill development. We believe in enhancing career journeys by making learning and professional growth more accessible, engaging, and effective.
+> The project aims to streamline career advancement by offering tailored learning plans, realistic interview experiences, and fostering a supportive community for networking, mentorship, and skill development. We believe in enhancing career journeys by making learning and professional growth more accessible, engaging, and effective.
 
 ## User Stories
 
