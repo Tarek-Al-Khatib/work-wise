@@ -47,13 +47,13 @@
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> WorkWise started as simple wireframes and mockups. We kept refining the design, taking feedback at every step, until it felt just right to use, fun to navigate, and perfectly suited to help users grow their careers.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+- Project Figma design [figma](https://www.figma.com/design/zplq3EtGiAvkY5so23DcGL/WorkWise-Wireframes?node-id=0-1&t=DDK6dIZuo9VDnyA6-1)
 
 ### Mockups
 
-| Home screen                             | Menu Screen                           | Order Screen                          |
+| Home screen                             | Dashboard Screen                      | Profile Screen                        |
 | --------------------------------------- | ------------------------------------- | ------------------------------------- |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
