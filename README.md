@@ -25,10 +25,13 @@
 
 - As a moderator, I want to send interview invitations to users, so I can help them prepare for job opportunities.
 - As a moderator, I want to review reported messages, so I can take appropriate actions against content that violates community guidelines.
+- As a moderator, I am designated as the person users conduct interviews with in the community, ensuring that I can actively support their preparation and provide valuable feedback.
 
 ### Admin
 
 - As an admin, I want to assign moderator roles to community members, so I can ensure the community is actively managed and moderated.
+- As an admin, I want to create new channels within the community, so users can engage in focused discussions based on specific topics or interests.
+- As an admin, I want to edit community details, such as the name, description, or rules, so I can keep the community's information accurate and up-to-date.
 
 <br><br>
 
