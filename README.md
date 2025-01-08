@@ -13,13 +13,9 @@
 
 ### User
 
-- As a user, I want to create a personalized learning plan, so I can work towards my career goals step by step.
-- As a user, I want to track my progress in the learning plan, so I can see how close I am to achieving my goals.
-- As a user, I want to participate in mock interviews with AI, so I can practice and improve my interview skills.
-- As a user, I want to request a mock interview with a moderator, so I can receive personalized feedback from an expert.
+- As a user, I want to create a personalized learning plan and track the progress, so I can work towards my career goals step by step.
+- As a user, I want to participate in mock interviews with AI or Moderator, so I can practice and improve my interview skills.
 - As a user, I want to join a community, so I can collaborate with like-minded individuals and gain mentorship.
-- As a user, I want to send and receive messages within my community channels, so I can communicate effectively with other members.
-- As a user, I want to view detailed feedback after an interview, so I can identify my strengths and areas for improvement.
 
 ### Moderator
 
