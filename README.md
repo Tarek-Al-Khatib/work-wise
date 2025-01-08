@@ -36,7 +36,8 @@
 
 ### WorkWise is built using the following technologies:
 
-- WorkWise is built using the following technologies:
+WorkWise is built using the following technologies:
+
 - The project uses [ReactJS](https://react.dev/) for the frontend, enabling an interactive and dynamic user interface.
 - For the backend server, it utilizes [Node.js](https://nodejs.org/en) with [Express.js](https://expressjs.com/), providing a robust and scalable API.
 - The platform relies on [MySQL](https://www.mysql.com/) for relational database management, ensuring efficient data storage and retrieval.
