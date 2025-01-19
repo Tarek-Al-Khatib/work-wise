@@ -19,8 +19,8 @@
 
 ### Moderator
 
-- As a moderator, I want to send interview invitations to users, so I can help them prepare for job opportunities.
-- As a moderator, I want to review reported messages, so I can take appropriate actions against content that violates community guidelines.
+- As a moderator, I want to check the pending invitations that are sent to me for mock interviews
+- As a moderator, I want to give a detailed feedback after each interview is completed, and I want to accept or reject interviews invitations.
 - As a moderator, I am designated as the person users conduct interviews with in the community, ensuring that I can actively support their preparation and provide valuable feedback.
 
 ### Admin
