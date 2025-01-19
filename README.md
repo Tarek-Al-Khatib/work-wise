@@ -40,6 +40,9 @@
 - For the backend server, it utilizes [Node.js](https://nodejs.org/en) with [Express.js](https://expressjs.com/), providing a robust and scalable API.
 - The platform relies on [MySQL](https://www.mysql.com/) for relational database management, ensuring efficient data storage and retrieval.
 - For real-time features, the project integrates [Socket.io](https://socket.io/), enabling live notifications and updates across the platform.
+- Advanced 3D visualizations are powered by [Three.js](https://threejs.org/), offering immersive and interactive experiences.
+- Seamless video conferencing capabilities are achieved using [Daily.js](https://www.daily.co/).
+
   <br><br>
 
 <!-- UI UX -->
@@ -51,9 +54,9 @@
 
 ### Mockups
 
-| Home screen                             | Dashboard Screen                      | Profile Screen                        |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Learning screen                            | Interview Screen                                |
+| ------------------------------------------ | ----------------------------------------------- |
+| ![Learning](./readme/mockups/learning.png) | ![Interview](./readme/mockups/ai_interview.png) |
 
 <br><br>
 
@@ -62,28 +65,30 @@
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
+<img src="./readme/DBDiagram/WorkWise_DBDiagram.png"/>
 
 <br><br>
 
 <!-- Implementation -->
 <img src="./readme/title6.svg"/>
 
-### User Screens (Mobile)
+### User Screens
 
-| Login screen                              | Register screen                         | Landing screen                          | Loading screen                          |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen                               | Menu Screen                             | Order Screen                            | Checkout Screen                         |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+| AI Interview screen                                | Communities screen                                   |
+| -------------------------------------------------- | ---------------------------------------------------- |
+| ![AIInterview](./readme/screens/ai_interview.gif)  | ![Communities](./readme/screens/community_page.gif)  |
+| Dashboard screen                                   | My Interviews Screen                                 |
+| ![Dashboard](./readme/screens/dashboard_video.gif) | ![MyInterviews](./readme/screens/interview_page.gif) |
+| My Learning screen                                 | Video Call Screen                                    |
+| ![MyLearning](./readme/screens/learning_page.gif)  | ![VideoCall](./readme/screens/video_call_page.gif)   |
+| Add New Plan screen                                | Profile screen                                       |
+| ![NewPlan](./readme/mockups/add_learning.png)      | ![Profile](./readme/mockups/profile.png)             |
 
-### Admin Screens (Web)
+### Admin Screens
 
-| Login screen                            | Register screen                       | Landing screen                        |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Create Community                                  | Create Channel                                 |
+| ------------------------------------------------- | ---------------------------------------------- |
+| ![MyLearning](./readme/mockups/add_community.png) | ![VideoCall](./readme/mockups/add_channel.png) |
 
 <br><br>
 
@@ -92,7 +97,13 @@
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- This project uses advanced techniques to improve how we interact with OpenAI models. By carefully creating input instructions, we can guide the models to understand and generate language more accurately and efficiently for different tasks and needs.
+
+  | Start interviewing                              | Complete Interview                                 |
+  | ----------------------------------------------- | -------------------------------------------------- |
+  | ![StartInterview](./readme/prompts/prompt1.png) | ![CompleteInterview](./readme/prompts/prompt4.png) |
+  | Enhance Plan                                    | Create Top Picks                                   |
+  | ![NewPlan](./readme/prompts/prompt2.png)        | ![Profile](./readme/prompts/prompt3.png)           |
 
 <br><br>
 
@@ -117,31 +128,54 @@
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up WorkWise locally, follow these steps:
 
-### Prerequisites
+## Installation
 
-This is an example of how to list things you need to use the software and how to install them.
+1. Get a free API Key at [ElevenLabs](https://elevenlabs.io/), [DailyJS](https://www.daily.co/), and [NINJASAPI](https://www.api-ninjas.com/)
+2. Get an API key at [OPENAI](https://openai.com/index/openai-api/)
+3. Clone the repo
+   git clone [github](https://github.com/Tarek-Al-Khatib/work-wise)
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Backend Side
 
-### Installation
+1. Install NPM packages
+   ```sh
+   npm install --legacy-peer-deps
+   ```
+2. Run the following commands
+   ```sh
+   npx prisma migrate dev
+   npm run prisma:seed
+   ```
+3. Enter your API keys, secrets, and configurations in `.env`
+   ```env
+   DATABASE_URL="Your MySQL server connection"
+   PORT=Enter your Preffered port
+   JWT_SECRET="Enter your JWT Secret key"
+   DAILY_API_KEY="Enter your Daily JS free API key"
+   OPENAI_API_KEY="Enter your Open AI API key"
+   ELEVEN_LABS_API_KEY="Enter your ElevenLabs free API key"
+   ```
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+### Frontend Side
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+1. Install NPM Packages
+
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+
+2. Enter your API key for NINJA'S API
+
+   ```env
+   REACT_APP_NINJAS_API="Enter your NINJAS API free API key"
    ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+3. Put your server URL inside of src -> config -> url.js
+
+   ```js
+   export const serverUrl = "Your Server URL";
+   ```
+
+Now, you should be able to run WorkWise locally and explore its features.
