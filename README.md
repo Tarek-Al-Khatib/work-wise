@@ -54,9 +54,9 @@
 
 ### Mockups
 
-| Learning screen                            | Interview Screen                                |
-| ------------------------------------------ | ----------------------------------------------- |
-| ![Learning](./readme/mockups/learning.png) | ![Interview](./readme/mockups/ai_interview.png) |
+| My Interviews screen                               | Profile Screen                           |
+| -------------------------------------------------- | ---------------------------------------- |
+| ![InterviewScreen](./readme/mockups/interview.png) | ![Profile](./readme/mockups/profile.png) |
 
 <br><br>
 
@@ -107,23 +107,23 @@
 
 <br><br>
 
-<!-- AWS Deployment -->
+<!-- AWS Deployment
 <img src="./readme/title8.svg"/>
 
 ### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
 - This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
 
-<br><br>
+<br><br> -->
 
 <!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
+<!-- <img src="./readme/title9.svg"/>
 
 ### Precision in Development: Harnessing the Power of Unit Testing:
 
 - This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
 
-<br><br>
+<br><br> -->
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
@@ -141,7 +141,7 @@
 
 1. Install NPM packages
    ```sh
-   npm install --legacy-peer-deps
+   npm install
    ```
 2. Run the following commands
    ```sh
@@ -163,7 +163,7 @@
 1. Install NPM Packages
 
    ```sh
-   npm install
+   npm install --legacy-peer-deps
    ```
 
 2. Enter your API key for NINJA'S API
