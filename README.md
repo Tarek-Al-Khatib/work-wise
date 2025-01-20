@@ -29,6 +29,8 @@
 - As an admin, I want to create new channels within the community, so users can engage in focused discussions based on specific topics or interests.
 - As an admin, I want to edit community details, such as the name, description, or rules, so I can keep the community's information accurate and up-to-date.
 
+<img src="./readme/workflow/UserFlow-WorkWise.png" src="WorkWise Work Flow">
+
 <br><br>
 
 <!-- Tech stack -->
@@ -42,7 +44,13 @@
 - For real-time features, the project integrates [Socket.io](https://socket.io/), enabling live notifications and updates across the platform.
 - Advanced 3D visualizations are powered by [Three.js](https://threejs.org/), offering immersive and interactive experiences.
 - Seamless video conferencing capabilities are achieved using [Daily.js](https://www.daily.co/).
-
+- The design of user-friendly and consistent UI components is handled by [MUI (Material-UI)](https://mui.com/).
+- File uploads are managed efficiently with [Multer](https://github.com/expressjs/multer) middleware.
+- Secure user authentication and authorization are ensured using [JWT](https://jwt.io/) (JSON Web Tokens).
+- Database management and interaction are simplified with [Prisma ORM](https://www.prisma.io/).
+- Natural and realistic voice outputs are generated using [ElevenLabs](https://elevenlabs.io/).
+- Speech recognition and voice interaction are enabled with the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API).
+- AI-driven features like content generation and interactive learning are powered by [OpenAI](https://openai.com/).
   <br><br>
 
 <!-- UI UX -->
@@ -54,9 +62,9 @@
 
 ### Mockups
 
-| My Interviews screen                               | Profile Screen                           |
-| -------------------------------------------------- | ---------------------------------------- |
-| ![InterviewScreen](./readme/mockups/interview.png) | ![Profile](./readme/mockups/profile.png) |
+| My Interviews screen                                    | Profile Screen                               |
+| ------------------------------------------------------- | -------------------------------------------- |
+| ![InterviewScreen](./readme/all_screens/Interviews.png) | ![Profile](./readme/all_screens/Profile.png) |
 
 <br><br>
 
@@ -80,13 +88,13 @@
 | My Learning screen                                 | Video Call Screen                                    |
 | ![MyLearning](./readme/screens/learning_page.gif)  | ![VideoCall](./readme/screens/video_call_page.gif)   |
 | Add New Plan screen                                | Profile screen                                       |
-| ![NewPlan](./readme/mockups/add_learning.png)      | ![Profile](./readme/mockups/profile.png)             |
+| ![NewPlan](./readme/all_screens/Add%20Plan.png)    | ![Profile](./readme/all_screens/Profile.png)         |
 
 ### Admin Screens
 
-| Create Community                                  | Create Channel                                 |
-| ------------------------------------------------- | ---------------------------------------------- |
-| ![MyLearning](./readme/mockups/add_community.png) | ![VideoCall](./readme/mockups/add_channel.png) |
+| Create Community                                    | Create Channel                                     |
+| --------------------------------------------------- | -------------------------------------------------- |
+| ![MyLearning](./readme/all_screens/Community-1.png) | ![VideoCall](./readme/all_screens/Community-2.png) |
 
 <br><br>
 
@@ -95,7 +103,7 @@
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project uses advanced techniques to improve how we interact with OpenAI models. By carefully creating input instructions, we can guide the models to understand and generate language more accurately and efficiently for different tasks and needs.
+- This project uses advanced techniques to improve how we interact with OpenAI-4o-mini model. By carefully creating input instructions, we can guide the models to understand and generate language more accurately and efficiently for different tasks and needs.
 
   | Start interviewing                              | Complete Interview                                 |
   | ----------------------------------------------- | -------------------------------------------------- |
@@ -133,20 +141,23 @@
 1. Get a free API Key at [ElevenLabs](https://elevenlabs.io/), [DailyJS](https://www.daily.co/), and [NINJASAPI](https://www.api-ninjas.com/)
 2. Get an API key at [OPENAI](https://openai.com/index/openai-api/)
 3. Clone the repo
-   git clone [github](https://github.com/Tarek-Al-Khatib/work-wise)
+   git clone --recurse-submodules [github](https://github.com/Tarek-Al-Khatib/work-wise)
 
 ### Backend Side
 
-1. Install NPM packages
+1. ```sh
+   cd backend
+   ```
+2. Install NPM packages
    ```sh
    npm install
    ```
-2. Run the following commands
+3. Run the following commands
    ```sh
    npx prisma migrate dev
    npm run prisma:seed
    ```
-3. Enter your API keys, secrets, and configurations in `.env`
+4. Enter your API keys, secrets, and configurations in `.env`
    ```env
    DATABASE_URL="Your MySQL server connection"
    PORT=Enter your Preffered port
@@ -158,19 +169,23 @@
 
 ### Frontend Side
 
-1. Install NPM Packages
+1. ```sh
+   cd frontend
+   ```
+
+2. Install NPM Packages
 
    ```sh
    npm install --legacy-peer-deps
    ```
 
-2. Enter your API key for NINJA'S API
+3. Enter your API key for NINJA'S API
 
    ```env
    REACT_APP_NINJAS_API="Enter your NINJAS API free API key"
    ```
 
-3. Put your server URL inside of src -> config -> url.js
+4. Put your server URL inside of src -> config -> url.js
 
    ```js
    export const serverUrl = "Your Server URL";
