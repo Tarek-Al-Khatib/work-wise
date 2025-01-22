@@ -101,7 +101,7 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-### Understanding AI interaction: The power of prompt engineering.
+### Understanding AI interaction
 
 - This project is focused on making it easier to use the OpenAI-4o-mini model. By making clear instructions, we can help the model understand and create language more effectively for different tasks.
 
@@ -123,7 +123,7 @@
   | API Example                                |
   | ------------------------------------------ |
   | ![APIExample](./readme/deployment/api.png) |
-  | CI/CD WorkFlows                            |
+  | CI/CD Workflows                            |
   | ![CICD](./readme/deployment/cicd.png)      |
 
 <br><br>
