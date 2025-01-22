@@ -120,9 +120,11 @@
 
 - This project uses AWS tools to deploy the server-side of the project. We focus on making sure these application is scalable, reliable, and fast, so it works well for different needs. We can easily maintain and update our application by using CI/CD practices, ensuring an automatic deployment and update for the server.
 
-  | API Example                                | CI/CD WorkFlows                       |
-  | ------------------------------------------ | ------------------------------------- |
-  | ![APIExample](./readme/deployment/api.png) | ![CICD](./readme/deployment/cicd.png) |
+  | API Example                                |
+  | ------------------------------------------ |
+  | ![APIExample](./readme/deployment/api.png) |
+  | CI/CD WorkFlows                            |
+  | ![CICD](./readme/deployment/cicd.png)      |
 
 <br><br>
 
