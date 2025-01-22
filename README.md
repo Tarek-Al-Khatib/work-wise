@@ -101,9 +101,9 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+### Understanding AI interaction: The power of prompt engineering.
 
-- This project uses advanced techniques to improve how we interact with OpenAI-4o-mini model. By carefully creating input instructions, we can guide the models to understand and generate language more accurately and efficiently for different tasks and needs.
+- This project is focused on making it easier to use the OpenAI-4o-mini model. By making clear instructions, we can help the model understand and create language more effectively for different tasks.
 
   | Start interviewing                              | Complete Interview                                 |
   | ----------------------------------------------- | -------------------------------------------------- |
@@ -113,14 +113,18 @@
 
 <br><br>
 
-<!-- AWS Deployment
+<!-- AWS Deployment-->
 <img src="./readme/title8.svg"/>
 
-### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+### Deploying Efficiently: Unlocking Possibilities with AWS and CI/CD Practices
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project uses AWS tools to deploy the server-side of the project. We focus on making sure these application is scalable, reliable, and fast, so it works well for different needs. We can easily maintain and update our application by using CI/CD practices, ensuring an automatic deployment and update for the server.
 
-<br><br> -->
+  | API Example                                | CI/CD WorkFlows                       |
+  | ------------------------------------------ | ------------------------------------- |
+  | ![APIExample](./readme/deployment/api.png) | ![CICD](./readme/deployment/cicd.png) |
+
+<br><br>
 
 <!-- Unit Testing -->
 <!-- <img src="./readme/title9.svg"/>
@@ -141,7 +145,9 @@
 1. Get a free API Key at [ElevenLabs](https://elevenlabs.io/), [DailyJS](https://www.daily.co/), and [NINJASAPI](https://www.api-ninjas.com/)
 2. Get an API key at [OPENAI](https://openai.com/index/openai-api/)
 3. Clone the repo
-   git clone --recurse-submodules [github](https://github.com/Tarek-Al-Khatib/work-wise)
+   ```sh
+   git clone --recurse-submodules https://github.com/Tarek-Al-Khatib/work-wise
+   ```
 
 ### Backend Side
 
